@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maison Beaumont</title>
+<link href="stylesheet/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+<link href="stylesheet/stylesheet1.css" rel="stylesheet" type="text/css">
+</head>
+<body>	
+
+<!--header container start-->
+<header class="flex-grid">
+	<div class="hdrcon">
+    <a href="index.html">
+		<img src="images/logovectornobackgrnd.png" alt="maison-beaumont-with-croissant">
+    </a>
+	</div>
+
+	<div class="hdrcon2">
+		  <p>	Main Street <br> 
+			  	Falmouth MA 02540 <br>
+				Wednesday - Sunday <br>
+			  	7:30 AM to 4 PM &nbsp;</p>
+	  </div>
+</header>
+	
+<!--navite container start-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="index.html">Home</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+	<div class="collapse navbar-collapse" id="navbarSupportedContent1">
+	  <ul class="navbar-nav mr-auto">
+			<li class="nav-item"> <a class="nav-link" href="menu.html"> Menu </a></li>
+			<li class="nav-item"> <a class="nav-link" href="order.html"> Order </a> </li>
+			 <li class="nav-item"> <a class="nav-link" href="press.html"> Press </a> </li>
+			<li class="nav-item"> <a class="nav-link" href="careers.html"> Career </a> </li>
+		</ul>
+	</div>
+  </nav>
+
+<main>
+<div class="videowrapper">
+	<video width="500" autoplay muted controls>
+		<source src="media/baker.mp4" type="video/mp4">
+	  Your browser does not support the video tag.
+	  </video>
+	  <!--video credit to https://stock.adobe.com/search/free?filters%5Bcontent_type%3Avideo%5D=1&filters%5Bfetch_excluded_assets%5D=1&filters%5Binclude_stock_enterprise%5D=1&filters%5Bfree_collection%5D=1&order=relevance&safe_search=1&limit=100&search_type=usertyped&search_page=1&acp=&aco=bakery&k=bakery&get_facets=1&asset_id=307081072-->
+</div>
+<div class="textmainbackground">
+
+	<div class="title2">Career</div>
+	<div class="item4">
+		<p> As we continue to grow and spread the joy of authentic French flavors, we're seeking skilled individuals who share our commitment tradition and unwavering commitment to quality. Whether you have a passion for baking or interested in joining our distribution and sales team, we believe in fostering talent and providing opportunities for growth.</p>
+		<p>If you're ready to be part of a team that values craftsmanship, creativity, and community, we invite you to apply by completing the form below and submitting your resume. 
+		</p>
+	</div>
+
+<!--job app form starts here-->
+	<div>
+		<form action="https://webdevbasics.net/scripts/demo.php" method="post">
+			<!--firstname box-->
+			<label for="fname">First name:</label><br>
+			<input type="text" id="fname" name="first-name"><br><br>
+
+			<!--lastname box-->
+			<label for="lname">Last name:</label><br>
+			<input type="text" id="lname" name="last-name"><br><br>
+
+			<!--email box-->
+			<!--made a class so that the input box for email is longer-->
+			<label for="email">Email:</label><br>
+			<input type="email" id="email" name="email" class="longfieldtext" placeholder="myemail@somedomain.com"><br><br>
+
+			<!--phone-->
+			<label for="phone">Enter your phone number:</label><br>
+			<input type="tel" id="phone" name="phone" placeholder="012-345-6789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
+
+			<!--position box-->
+			<label for="preferredcontact">Applying for:</label><br>
+			<select id="preferredcontact" name="contact" >
+			<option value="Baker">Baker</option>
+			<option value="Distribution">Distribution</option>
+			<option value="Sales">Sales</option>
+			</select><br><br>
+
+			<!--desired salary box-->
+			<label for="salary">Desired salary:</label><br>
+			<input id="salary" type="text" name="text-salary"><br><br>
+
+			<!--position box-->
+			<label for="question">Have you ever worked for Maison Beaumont?</label><br>
+			<select id="question" name="contact">
+			<option value="Yes">Yes</option>
+			<option value="No">No</option>
+			</select><br><br>
+
+			<!--Date -->
+			<label for="additional-comments">If yes, when and in what role?</label><br>
+			<textarea id="additional-comments" name="additional-comments" rows="3" cols="20">
+			</textarea><br><br>
+
+			<!--resume upload-->
+			<label for="Resume">Upload Resume</label><br>
+			<input id="Resume" type="file" name="filename"><br><br>
+
+			<!--submit button-->
+			<input type="submit" value="Submit">
+		</form>
+	</div>
+</div>
+
+ <!--DIV FOR EMAIL QUERY-->
+ <div class="clear item4 email-pad">
+	<a href="mailto:this-is-an-example@not-a-real-domain.com"><img src="images/QuesTion.png" width="125" alt="email icon"></a>
+</div>
+</main>
+
+<!--footer containter start-->
+<footer class="footer">
+   <p> Copyright &copy; 2024 Maison Beaumont</p> 
+</footer>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap-4.4.1.js"></script>
+</body>
+</html>
+
+
+
+
+
